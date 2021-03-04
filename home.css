@@ -1,0 +1,168 @@
+
+  body{  
+    margin: 0;    	
+  }
+  h1{    
+    font-size: 200%;
+    font-family: Tw Cen MT;
+    text-align: center;
+    color: #01114A;
+  }
+  p{   
+    
+    line-height:1.5;   
+    font-size: 100%;
+    font-family: century gothic;
+    
+  }
+  .subtitulo{
+    font-size: 160%;
+    font-family: Tw Cen MT;
+    text-align: center;
+    color: #35426F;
+  }
+  .divisao{
+    size: 5px;
+    width: 100%;
+    height: 10px;
+    background-color: #01114A;
+  }
+  div,.c{
+   
+    border: solid 0 #01114A;
+    background-color:  #01114A;
+    padding: 15px 20px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    color:  white;   
+   
+     }
+     .contato{
+      border: solid 0;
+      background-color: #f2f3f4;
+      padding: 15px 20px;
+      margin: 0;
+      text-align: center;
+      text-decoration: none;
+      color: #01114A;  
+      
+     }
+    
+     div a:hover:not(.active) {
+      background-color: #00BEB9;
+    }
+
+    div,.a{
+   
+      border: solid 0px #01114A;
+      background-color:  #01114A;
+      padding: 38px 12px;
+      text-decoration: none;
+      margin: 0px;
+      color:  white;
+      text-align: right;
+      font-family: century gothic;
+       
+      
+    
+       }
+      
+       div a:hover:not(.active) {
+        background-color: #00BEB9;
+      }
+      .logo{      
+      height: 83px;
+      margin-left: 8px;
+      margin-block-start: 5px;
+      }
+      header {
+        padding: 15px 0;
+      }
+      .parceiro {
+        width: 940px;
+        margin: 0 auto;
+        padding: 50px 0 20px;
+      
+      }
+      
+      .parceiro li {
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.5% 1.5%;
+        padding: 30px 20px 15px;
+        box-sizing: border-box;
+        border: 2px solid #01114A;
+        border-radius: 20px;
+      }
+      .parceiro li:hover {
+        border-color: #00BEB9;
+      }
+      
+      .parceiro li:action {
+        border-color: #7CDDDB;
+      }
+      
+      .parceiro h2:hover {
+        font-size: 30px;
+        color: #00BEB9;
+        text-decoration: none;
+      }
+      .parceiro h2 {
+        font-family: Century Gothic;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 5px;
+      
+      }
+      .produto-descricao {
+        font-family: Tw Cen MT;
+        font-size: 18px;
+        margin: 5px 0 0;
+      }
+      .produto-preco {
+        font-family: Tw Cen MT;
+        font-size: 20px;
+        margin: 10px 0 0;
+        font-weight: bold;
+      }
+      .bloco{
+        margin-left: auto;
+        margin-right: auto;
+        width: 978px;
+      }
+      legend{
+        background-color: #01114A;;
+        color:  white;
+        text-align: center;
+        padding: 10px ;
+        }
+        
+        fieldset{
+            background-color:  white;
+            font-family:century gothic;
+            margin: 15px;
+           
+            }
+                    
+        input{
+        margin: 12px;    
+        }
+
+        td{
+          line-height:1.5;   
+          font-size: 100%;
+          font-family: century gothic;
+        }
+        table{
+          
+    size: 5px;
+    width: 80%;
+    height: 10px;
+    background-color: #01114A;
+    color: white;
+        }
+        
+        

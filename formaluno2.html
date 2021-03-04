@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menor de idade</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Dados pessoais </legend>
+        
+        
+        
+        <form>
+        
+        <label for="nome" >Nome  do Aluno*</label>
+            <input type="text" id="nome" placeholder="Digite seu nome"  maxlength="60" size="45"/>
+            <label for="cpf">CPF*</label>
+            <input type="text" id="cpf" maxlength="11"><br><br>
+            <label for="Sexo">Sexo*</label><br>
+            <input type="radio" id="Masculino">Masculino
+            <input type="radio" id="Feminino">Feminino
+            <label for="Rg" style="margin-left: 50px;">RG*</label>
+             <input type="text" id="rg" maxlength="15"><br><br> 
+        
+             <label for="text">Data de Nascimento*</label>
+             <input type="date" id="cpf" placeholder="Digite o CPF" maxlength="60"><br><br>
+             <label for="text">Nome da Mãe:</label>
+             <input type="text" id="Mãe" maxlength="60">
+             <label for="Rg">RG*</label>
+             <input type="text" id="rg" maxlength="15"><br><br> 
+             <label for="text">Nome do Pai:</label>
+             <input type="text" id="Pai" maxlength="60"><br><br>
+             <label for="text"> Telefone*</label>
+             <input type="tel" id="telefone" maxlength="10"><br><br>
+            <label for="tex">Endereço*</label>
+            <input type="text" placeholder="Digite seu Endereço" maxlength="60">
+            <label for="tex">CEP*</label>
+            <input type="text" placeholder="CEP" maxlength="60">
+          
+        
+        </form>
+        <fieldset>
+        <legend>Matrícula</legend>
+        
+        
+          <form>
+            <label for="serie">Serie*</label><br>
+        <datalist id="serie">
+          <option value="Ensino Medio"></option>
+          <option value="Ensino Medio Incompleto"></option>
+          <option value="Superior completo"></option>
+          <option value="Superior Incompleto"></option>
+          <option  value="Tecnico"></option>
+          
+        
+        </datalist>
+        <input type="text" id="serie" list="serie" name="serie"><br><br>
+        <label for="turno"> Turno*</label><br>
+        <input type="radio" id="manha">Manhã
+        <input type="radio" id="tarde">Tarde
+        <input type="radio" id="Noite">Noite <br><br>
+        <label for="Cursos">Cursos*</label><br>
+        <input type="checkbox" id="C">linguagem C<br>
+        <input type="checkbox" id="C#">linguagem C#<br>
+        <input type="checkbox" id="javascript">JavaSCript<br>
+        <input type="checkbox" id="phyton">Phyton<br>
+        <input type="checkbox" id="phyton">Phyton<br>
+        <input type="checkbox" id="html">Html e css basico<br>
+        <input type="checkbox" id="htmlav">Html e css avançado<br>
+        <input type="checkbox" id="Power">Power BI<br>
+        <input type="checkbox" id="excel">Excel<br>
+        <input type="checkbox" id="sql">SQL Microsoft <br>
+        
+        
+          </form>
+        
+          <label for="estado">Estado:</label>				
+                        <form action="" method="post">				
+                            <datalist id="estado">
+                                <option value="Acre"></option>
+                                <option value="Alagoas"></option>
+                                <option value="Amapá"></option>
+                                <option value="Amazonas"></option>
+                                <option value="Bahia"></option>
+                                <option value="Ceará"></option>
+                                <option value="Distrito Federal"></option>
+                                <option value="Espírito Santo"></option>						
+                                <option value="Goiás"></option>
+                                <option value="Maranhão"></option>
+                                <option value="Mato Grosso"></option>
+                                <option value="Mato Grosso do Sul"></option>
+                                <option value="Minas Gerais"></option>
+                                <option value="Pará"></option>
+                                <option value="Paraíba"></option>
+                                <option value="Paraná"></option>
+                                <option value="Pernambuco"></option>
+                                <option value="Piauí"></option>
+                                <option value="Rio de Janeiro"></option>
+                                <option value="Rio Grande do Norte"></option>
+                                <option value="Rio Grande do Sul"></option>
+                                <option value="Rondônia"></option>
+                                <option value="Roraima"></option>
+                                <option value="Santa Catarina"></option>
+                                <option value="São Paulo"></option>
+                                <option value="Sergipe"></option>
+                                <option value="Tocantins"></option>
+                        </datalist>
+                    <input type="text" id="estado" list="estado" name="estado">
+                    </form>
+                    <input type="submit" style="margin-block-start: 20px; background-color:  #01114A; color: white; padding: 5px;">
+        </fieldset>
+        
+        </fieldset>
+</body>
+</html>
